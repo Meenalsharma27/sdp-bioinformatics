@@ -1,0 +1,59 @@
+:root {
+  --bs-primary: #4f46e5;
+  --bs-primary-rgb: 79, 70, 229;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f5f6fa;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.page-header h1 {
+  font-weight: 600;
+}
+
+.card-elevated {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 .5rem 1.5rem rgba(15, 23, 42, .06);
+}
+
+table thead th {
+  text-transform: uppercase;
+  font-size: .72rem;
+  letter-spacing: .04em;
+  color: #6b7280;
+  border-bottom-width: 1px;
+}
+
+.badge-grade {
+  background-color: #eef2ff;
+  color: #4338ca;
+  font-weight: 600;
+  font-size: .8rem;
+  padding: .4em .7em;
+  border-radius: .5rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: #9ca3af;
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.auth-card {
+  max-width: 520px;
+  margin: 0 auto;
+}
